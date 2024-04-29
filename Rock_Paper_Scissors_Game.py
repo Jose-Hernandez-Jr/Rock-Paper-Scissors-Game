@@ -1,6 +1,6 @@
 def start():
     print('This is my Pock Paper Scissors Game!')
-    Player_One = 'Carlos'
+    Player_One = 'Megan'
     Player_Two = 'Jose'
     def choices(Player_One_Choice, Player_Two_Choice):
         if Player_One_Choice == 'rock' and Player_Two_Choice == 'paper':
@@ -16,7 +16,7 @@ def start():
         elif Player_One_Choice == 'scissors' and Player_Two_Choice == 'rock':
             return('Rock smashes Scissors! ' + Player_Two  +  ' wins!')
         elif Player_One_Choice == Player_Two_Choice:
-            return('Carlos and Jose tied!')
+            return('Megan and Jose tied!')
         else:
             return('Please type Rock, Paper or Scissors!')
     Player_One_Choose = input('Does ' + Player_One +
